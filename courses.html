@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MARIEM_check_point_1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script>
+            $(document).ready(function(){
+              $(".icone21").mouseenter(function(){
+                $(".icone21").fadeTo("slow", 0.4);
+                $("#view1").show();
+              });
+            $(".icone21").mouseleave(function(){
+                $(".icone21").fadeTo("slow", 1);
+                $("#view1").hide();
+              });
+            });
+            </script>
+    <script>
+            $(document).ready(function(){
+              $(".icone22").mouseenter(function(){
+                $(".icone22").fadeTo("slow", 0.4);
+                $("#view2").show();
+              });
+              $(".icone22").mouseleave(function(){
+                $(".icone22").fadeTo("slow", 1);
+                $("#view2").hide();
+              });
+            });
+    </script>
+
+   <script>
+        $(document).ready(function(){
+          $(".icone23").mouseenter(function(){
+            $(".icone23").fadeTo("slow", 0.4);
+            $("#view3").show();
+          });
+          $(".icone23").mouseleave(function(){
+            $(".icone23").fadeTo("slow", 1);
+            $("#view3").hide();
+          });
+        });
+   </script>
+
+    <link rel="icon" href="https://previews.123rf.com/images/putracetol/putracetol1805/putracetol180506680/101827937-check-point-logo-icon-design.jpg">
+</head>
+<body>
+  
+      <div class="entete">
+          <!-- <img scr="https://gomycode.tn/images/section2GMCLogo.png"> -->
+          <div class="onglet">
+              <a href="index.html"> Home</a>
+          </div> 
+         <div class="onglet">
+              <a href="courses.html"> Courses</a> 
+         </div>
+         <div class="onglet">
+              <a href="contact.html"> Contact</a>
+         </div>
+
+      </div>
+      <div class ="cover">
+        <h1> COURSES </h1>
+      </div>
+
+  <div class="icone2">   
+
+      <div class="icone21"> 
+          <div id="text1" class="modal">
+            <p>This is Go My Code Track. Each Track has its own goal.</p>
+            <a href="#" rel="modal:close">Close</a>
+          </div>
+          <button id="view1"><a href="#text1" rel="modal:open">View More</a></button>
+     </div>
+
+      <div class="icone22">  
+          <div id="text1" class="modal">
+            <p>This is Go My Code Track. Each Track has its own goal.</p>
+            <a href="#" rel="modal:close">Close</a>
+          </div>
+          <button id="view2"><a href="#text1" rel="modal:open">View More</a></button> 
+      </div>
+
+      <div class="icone23"> 
+            <div id="text1" class="modal">
+                    <p>This is Go My Code Track. Each Track has its own goal.</p>
+                    <a href="#" rel="modal:close">Close</a>
+                  </div>
+                  <button id="view3"><a href="#text1" rel="modal:open">View More</a></button>
+      </div>
+
+      <!-- <div class="icone24">   </div>
+      <div class="icone25">   </div>
+      <div class="icone26">   </div>
+      <div class="icone27">   </div>
+      <div class="icone28">   </div>
+      <div class="icone29">   </div> -->
+      
+    </div>    
+          <!-- <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel.png">
+          <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel1.png">
+          <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel2.png">
+          <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel3.png">
+          <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel4.png">
+          <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel5.png">
+          <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel6.png">
+          <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel7.png">
+          <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel8.png"> -->
+   
+
+
+  <div class="icone3">
+
+  <center>    
+  <p>Feedback</p>
+  <button onclick="Gras()"><b>B</b></button>
+  <button onclick="Itali()"><i>I</i></button>
+  <button onclick="Under()">Underline</button>
+      <select id="liste1" onchange="Size()">
+          <option value=20 >20px</option>
+          <option value=30 >30px</option>
+          <option value=40 >40px</option>
+      </select> 
+      <select id="liste2" onchange="Char()">
+          <option value="Arial">Arial</option>
+          <option value="Calibri">Calibri</option>
+          <option value="Time Nex Roman">Time New Romant</option>
+      </select>
+      <br>      <textarea id="para" cols="100" rows="20"> </textarea> 
+</center>
+</div> 
+</body>
+<script src="main.js"></script>
+      <br>
+     <br>
+
+</html>
